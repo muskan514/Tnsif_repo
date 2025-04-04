@@ -3,7 +3,8 @@ package com.tnsif.OnlineTicketBooking;
 public class TBooking {
 	private static int ticket = 5;
 	static {
-		System.out.println("Welcome to the Online Ticket Booking System. \n The number of tickets available are: "+ticket);
+		System.out.println("Welcome to the Online Ticket Booking System. \n"
+				+ " The number of tickets available are: "+ticket);
 	}
 
 	void Tbooking() {
